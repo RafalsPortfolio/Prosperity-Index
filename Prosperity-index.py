@@ -133,7 +133,7 @@ for i in range(len(table.columns)):
    indexs_new.append(i+1)
 
 # Zamianiamy nazwy kolumn (Liczby które są rozrzucone) na nazwy (liczby w liscie indexs_new) Lepiej to rozwiązanie niż rozwiązanie poniżej które jest zakomentowen
-table.set_axis(indexs_new, axis=1, inplace=True) 
+table = table.set_axis(indexs_new, axis=1)
 
 # Zapisywanie list do słownika z nowymi indeksami
 indicators=dict(zip(indexs_new, name_of_indicator))
@@ -268,7 +268,7 @@ table["srednia_wazona"].nlargest(5)
 table["srednia_wazona"].nsmallest(5).sort_values(ascending=False)
 
 resaults=table["srednia_wazona"].nlargest(5)
-resaults=resaults.append(table["srednia_wazona"].nsmallest(5).sort_values( ascending=False))
+resaults=resaults._append(table["srednia_wazona"].nsmallest(5).sort_values( ascending=False))
 resaults=resaults
 table['srednia_wazona']=table['srednia_wazona']+0.221906
 
