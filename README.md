@@ -9,13 +9,6 @@ A total of 30 points can be awarded for a project. The pool of points consists o
 - Determination of a weighted average.
 - Presenting the five best and worst countries in the form of a summary table containing only the names of these countries and the values of the weighted averages.
 
-# Polish
-## Opis projektu
-Projekt polega na konstrukcji makroekonomicznego indeksu, wykorzystującego samodzielnie skompletowaną bazę danych. Realizujemy go w grupach ustalonych na zajęciach z Makroekonomii. Jednym słowem cokolwiek, co uważamy za istotne w kontekście oceniania jak przyjaznym do życia jest dany region. Na podstawie takiej bazy wyznaczamy średnią ważoną znormalizowanych zmiennych i tworzymy ranking analizowanych krajów.
-
-## Proseprity-index 
-Całościowo za projekt można otrzymać 30 punktów. Na pulę punktów składają się:
-- Przygotowanie danych w excelu zgodnie z wymaganiami i wprowadzenie poprawek wnotebooku polegających np. na poprawieniu typu kolumny, jeśli jest taka potrzeba.
-- Przeprowadzenie normalizacji danych.
-- Wyznaczenie średniej ważonej.
-- Zaprezentowanie pięciu najlepszych i najgorszych krajów w formie skróconej tabeli zawierającej wyłącznie nazwy tych krajów i wartości średnich ważonych.
+# Results
+Canada, the United States and Norway enjoy the highest levels of prosperity. 
+<img width="2560" height="1327" alt="Results" src="https://github.com/user-attachments/assets/05813c27-a655-4c26-8bac-567af208c3c2" />
