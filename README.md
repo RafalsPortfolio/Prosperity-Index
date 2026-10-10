@@ -1,4 +1,3 @@
-# English
 # Project description
 The project consists of the construction of a macroeconomic index, using a self-completed database. We carry it out in groups established in the Macroeconomics class. In a word whatever we consider relevant in terms of assessing how liveable a region is. At basis, we determine a weighted average of the normalised variables and create a ranking of the of the countries analysed.
 
